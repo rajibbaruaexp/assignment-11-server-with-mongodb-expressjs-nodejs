@@ -46,7 +46,6 @@ async function run() {
 
       const result = await usersCollection.insertOne(newUser);
       res.json(result);
-      // console.log(result);
     });
 
     //GET API
