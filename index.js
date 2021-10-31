@@ -83,7 +83,6 @@ async function run() {
         updatedDoc,
         options
       );
-      console.log(id);
 
       res.json(result);
     });
